@@ -1,0 +1,34 @@
+{
+  "name": "cl-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon src",
+    "seed": "node seeds.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource": "^0.2.2",
+    "apollo-server": "^2.3.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^6.2.0",
+    "graphql": "^14.1.1",
+    "jsonwebtoken": "^8.4.0",
+    "mysql2": "^1.6.4",
+    "nodemon": "^1.18.9",
+    "sequelize": "^4.42.0",
+    "sleep": "^6.0.0"
+  },
+  "devDependencies": {
+    "apollo-link": "^1.2.8",
+    "apollo-link-http": "^1.5.11",
+    "apollo-server-testing": "^2.3.3",
+    "debug": "^4.1.1",
+    "jest": "^24.1.0",
+    "node-fetch": "^2.3.0"
+  }
+}
